@@ -6,7 +6,8 @@ data class Order(
     val startPoint: String,
     val endPoint: String,
     val distance: Double,
-    val cargoVolume: String,
+    val cargoVolume: Double,
     val cargoWeight: Double,
-    val cargoType: Cargo
+    val cargoType: Cargo,
+    val price: Double
 )

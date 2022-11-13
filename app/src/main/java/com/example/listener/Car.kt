@@ -6,6 +6,13 @@ import com.example.ui.CargoPassengerFactory
 import com.example.ui.PassengerFactory
 
 interface Car {
+    val brand: String
+    val model: String
+    val carType: TypeCar
+    val yearOfCar: Int
+    val fuelType: String
+    val volumeOfTank: Double
+    val fuelConsumption: Double
 
     fun fillCar(){}
 
